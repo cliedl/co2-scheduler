@@ -39,15 +39,13 @@ We trained an XGBoost model to predict the carbon intensity of electricity gener
 
 ## To host the app locally: 
 * Clone repository and navigate to repository folder
-    * git clone <repository_url>
-    * cd <repository_directory>
-* Create virtual environment and activate (e.g., with conda):
-    * conda create -n some_name python=3.10
-    * conda activate some_name
-* Install requirements.txt
-    * pip install -r requirements.txt
+   * git clone git@github.com:cliedl/co2-scheduler.git
+   * cd co2-scheduler```
+* Create virtual environment install dependencies (e.g., with uv):
+   * uv init
+   * uv pip install -r requirements
 * Run streamlit app
-    * streamlit run co2_scheduler.py
+   * uv run streamlit run co2_scheduler.py
 
 
 
